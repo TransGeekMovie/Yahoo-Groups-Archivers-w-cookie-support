@@ -35,4 +35,4 @@ Yahoo may attempt to block robots and may trottle or block sessions interacting 
 Add support for group files and photos. 
 
 ## Credits
-This code is based almost entirely on the works of [Andrew Ferguson](https://github.com/andrewferguson), and [Daniel t. ](https://github.com/danasmera). Created with consultation of Avery [Dame-Griff](http://averydame.net/) for the [Queer Digital History Project](http://queerdigital.com/)  API documentation is from the [Archive Team](http://www.archiveteam.org/index.php?title=Yahoo!_Groups) 
+This code is based almost entirely on the works of [Andrew Ferguson](https://github.com/andrewferguson), and [Daniel t. ](https://github.com/danasmera). Created with consultation of Avery [Dame-Griff](http://averydame.net/) for the [Queer Digital History Project](http://queerdigital.com/).  API documentation is from the [Archive Team](http://www.archiveteam.org/index.php?title=Yahoo!_Groups) 
