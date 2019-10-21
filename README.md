@@ -16,7 +16,7 @@ Before each use, sign into [Yahoo! Groups](https://groups.yahoo.com) to make sur
 
 
 ## Usage
-**`python archive_group.py <groupName> [options] [nologs]`**
+**`python3 yahooGroupaArchiver.py <groupName> [options] [nologs]`**
 where *`<groupName>`* is the name of the group you wish to archive (e.g: hypercard)
 
 **Options**
