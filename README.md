@@ -4,6 +4,8 @@
 
 Yahoo! Groups will be [discontinuing most services](https://help.yahoo.com/kb/groups/SLN31010.html) as of 14/Dec/2019.
 
+Due to the urgent need to archive content from Yahoo! Groups, Emphasis will be on basic function of the script; however, feel free to submit issues. 
+
 yahooGroupsArchiver archives all the files in a Yahoo! Group. 
 Messages are downloaded in a JSON format, with one .json file per message.
 This script supports cookie import from Firefox; to allow for archiving of private groups. 
@@ -13,7 +15,6 @@ Requirements: Python 3, with json, requests, os, time, sys, shutil, and sqlite3
 Uncomment the appropriate line in the code block following line 36 to reflect you OS and Firefox profile path. 
 
 Before each use, sign into [Yahoo! Groups](https://groups.yahoo.com) to make sure your cookies are current.
-
 
 ## Usage
 **`python3 yahooGroupsArchiver.py <groupName> [options] [nologs]`**
@@ -35,4 +36,4 @@ Yahoo may attempt to block robots and may trottle or block sessions interacting 
 Add support for group files and photos. 
 
 ## Credits
-This code is based almost entirely on the works of [Andrew Ferguson](https://github.com/andrewferguson), and [Daniel t. ](https://github.com/danasmera). Created with consultation of Avery [Dame-Griff](http://averydame.net/) for the [Queer Digital History Project](http://queerdigital.com/).  API documentation is from the [Archive Team](http://www.archiveteam.org/index.php?title=Yahoo!_Groups) 
+This code is based almost entirely on the works of [Andrew Ferguson](https://github.com/andrewferguson), and [Daniel t. ](https://github.com/danasmera) Created with the consultation of Avery [Dame-Griff](http://averydame.net/) for the [Queer Digital History Project](http://queerdigital.com/).  API documentation is from the [Archive Team](http://www.archiveteam.org/index.php?title=Yahoo!_Groups).
