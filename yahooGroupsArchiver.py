@@ -27,10 +27,9 @@ import sys #required to cancel script if blocked by Yahoo
 import shutil #required for deletung an old folder
 import glob #required to find the most recent message downloaded
 import time #required to log the date and time of run
-import os
-from datetime import datetime
-import sqlite3
-from shutil import copyfile
+import os #required for file path manipulation
+import sqlite3 #required for parsing of cookies.sqlite
+from shutil import copyfile #required for file duplication
 
 sqldb="./tmp.sqlite"
 cookieFile=""
@@ -40,7 +39,6 @@ cookieFile=""
 #cookieFile="/Users/USERNAME/Library/Application Support/Firefox/Profiles/GUID.default-1471356542941/cookies.sqlite"
 #Uncomment and edit the follosing for most Linux distros
 #cookieFile="/home/USERNAME/.mozilla/firefox/GUID.default-1471356542941/cookies.sqlite"
-cookieFile="/Users/kevlar/Library/Application Support/Firefox/Profiles/iy81c0le.default-1471356542941/cookies.sqlite"
 
 exists = os.path.isfile(cookieFile)
 if exists:
